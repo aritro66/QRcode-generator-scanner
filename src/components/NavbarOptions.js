@@ -18,8 +18,8 @@ export default function NavbarOptions() {
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link href="/">QRcode Generator</Nav.Link>
-          <Nav.Link href="/scanner">QRcode Scanner</Nav.Link>
+          <Nav.Link href="/QRcode-generator-scanner">QRcode Generator</Nav.Link>
+          <Nav.Link href="/QRcode-generator-scanner/scanner">QRcode Scanner</Nav.Link>
           
         </Nav>
         
