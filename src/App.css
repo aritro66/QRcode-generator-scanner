@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.QrCode{
+  padding: 20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+#generate,#scan{
+  padding: 0 10px;
   min-height: 100vh;
+  height: 100%;
+}
+.nav-item{
+  font-size: 20px !important;
+}
+
+#startbg{
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
+  /* justify-content: center; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: url("./images/qrcodebg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#intro div{
+  padding: 25px;
+  margin: auto;
+  margin-top: 43px;
+  background-color: rgba(128, 128, 128, 0.377);
+  text-align: justify;
+  
+  border-radius: 8px;
+  width: 70%;
+}
+#intro div h3{
+  font-size: 30px;
+}
+#intro div p{
+  font-size: 20px;
+}
+.output{
+  height: 150px;
+  width: 150px;
+}
+.qrcode{
+  margin: 15px 0;
+  padding: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3),-4px 4px 4px rgba(0, 0, 0, 0.3),0 -2px 4px rgba(0, 0, 0, 0.3);
+  height: 170px;
+  width: 170px;
 }
