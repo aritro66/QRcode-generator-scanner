@@ -15,8 +15,8 @@ function App() {
           <Home />
           <Navbaroption />
       <Routes>
-        <Route path="/" element={<QrcodeGenCombine />} />
-        <Route path="/scanner" element={<QRcodeScan />} />
+        <Route path="/QRcode-generator-scanner" element={<QrcodeGenCombine />} />
+        <Route path="/QRcode-generator-scanner/scanner" element={<QRcodeScan />} />
       </Routes>
       
     </div>
